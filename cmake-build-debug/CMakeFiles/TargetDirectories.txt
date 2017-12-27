@@ -1,0 +1,3 @@
+/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/CMakeFiles/cake_log_forwarder.dir

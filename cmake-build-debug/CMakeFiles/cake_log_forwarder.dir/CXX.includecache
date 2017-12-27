@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/isurangaperera/CLionProjects/cake-log-forwarder/main.cpp
+src/listener/log_listener.h
+/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.h
+
+/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.h
+map
+-
+iostream
+-
+
+/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/syslog_listener.cpp
+cstdint
+-
+log_listener.h
+/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.h
+../listener_constants.h
+/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener_constants.h
+fluent-bit.h
+-
+
+/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener_constants.h
+

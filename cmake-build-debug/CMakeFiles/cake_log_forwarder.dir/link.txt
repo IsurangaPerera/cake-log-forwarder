@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cake_log_forwarder.dir/main.cpp.o CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o  -o cake_log_forwarder -Wl,-rpath,/home/isurangaperera/CLionProjects/cake-log-forwarder/lib ../lib/libfluent-bit.so 

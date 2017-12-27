@@ -1,0 +1,4 @@
+/home/isurangaperera/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/isurangaperera/CLionProjects/cake-log-forwarder
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug

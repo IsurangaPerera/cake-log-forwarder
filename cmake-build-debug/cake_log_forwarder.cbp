@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cake_log_forwarder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cake_log_forwarder">
+				<Option output="/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/cake_log_forwarder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 cake_log_forwarder"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cake_log_forwarder/fast">
+				<Option output="/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/cake_log_forwarder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 cake_log_forwarder/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/main.cpp">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.h">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/syslog_listener.cpp">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener_constants.h">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
