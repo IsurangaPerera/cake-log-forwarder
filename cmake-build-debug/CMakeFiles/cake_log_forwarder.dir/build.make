@@ -105,20 +105,98 @@ CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o.provides: C
 CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o.provides.build: CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o
 
 
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o: CMakeFiles/cake_log_forwarder.dir/flags.make
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o: ../src/listener/log_listener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o -c /home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.cpp
+
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.cpp > CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.i
+
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.cpp -o CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.s
+
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o.requires:
+
+.PHONY : CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o.requires
+
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o.provides: CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o.provides.build
+.PHONY : CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o.provides
+
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o.provides.build: CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o
+
+
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o: CMakeFiles/cake_log_forwarder.dir/flags.make
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o: ../src/listener_constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o -c /home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener_constants.cpp
+
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener_constants.cpp > CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.i
+
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener_constants.cpp -o CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.s
+
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o.requires:
+
+.PHONY : CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o.requires
+
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o.provides: CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o.provides.build
+.PHONY : CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o.provides
+
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o.provides.build: CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o
+
+
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o: CMakeFiles/cake_log_forwarder.dir/flags.make
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o: ../src/parser/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o -c /home/isurangaperera/CLionProjects/cake-log-forwarder/src/parser/parser.cpp
+
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isurangaperera/CLionProjects/cake-log-forwarder/src/parser/parser.cpp > CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.i
+
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isurangaperera/CLionProjects/cake-log-forwarder/src/parser/parser.cpp -o CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.s
+
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o.requires:
+
+.PHONY : CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o.requires
+
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o.provides: CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o.provides.build
+.PHONY : CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o.provides
+
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o.provides.build: CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o
+
+
 # Object files for target cake_log_forwarder
 cake_log_forwarder_OBJECTS = \
 "CMakeFiles/cake_log_forwarder.dir/main.cpp.o" \
-"CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o"
+"CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o" \
+"CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o" \
+"CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o" \
+"CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o"
 
 # External object files for target cake_log_forwarder
 cake_log_forwarder_EXTERNAL_OBJECTS =
 
 cake_log_forwarder: CMakeFiles/cake_log_forwarder.dir/main.cpp.o
 cake_log_forwarder: CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o
+cake_log_forwarder: CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o
+cake_log_forwarder: CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o
+cake_log_forwarder: CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o
 cake_log_forwarder: CMakeFiles/cake_log_forwarder.dir/build.make
 cake_log_forwarder: ../lib/libfluent-bit.so
 cake_log_forwarder: CMakeFiles/cake_log_forwarder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cake_log_forwarder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isurangaperera/CLionProjects/cake-log-forwarder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cake_log_forwarder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cake_log_forwarder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +206,9 @@ CMakeFiles/cake_log_forwarder.dir/build: cake_log_forwarder
 
 CMakeFiles/cake_log_forwarder.dir/requires: CMakeFiles/cake_log_forwarder.dir/main.cpp.o.requires
 CMakeFiles/cake_log_forwarder.dir/requires: CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o.requires
+CMakeFiles/cake_log_forwarder.dir/requires: CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o.requires
+CMakeFiles/cake_log_forwarder.dir/requires: CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o.requires
+CMakeFiles/cake_log_forwarder.dir/requires: CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o.requires
 
 .PHONY : CMakeFiles/cake_log_forwarder.dir/requires
 

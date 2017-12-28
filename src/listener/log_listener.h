@@ -9,37 +9,22 @@
 #include <iostream>
 
 class LogListener;
-
 typedef LogListener *Listener;
 
 class LogListener {
 private:
-    static std::map<std::string, Listener> &create_map() {
-        static std::map<std::string, Listener> lmap;
-        return lmap;
-    }
+    static std::map<std::string, Listener> &create_map();
 
 public:
     virtual int get_listener_identifier() = 0;
 
-    virtual int create_context() = 0;
+    virtual bool config_reload() = 0;
 
     /** make one. */
-    static Listener create(const std::string &name) {
-        std::map<std::string, Listener> & lmap = create_map();
-        auto it = lmap.find(name);
-        if (it == lmap.end()) {
-            throw "Unknown Type";
-        }
-        return it->second;
-    }
+    static Listener create(const std::string &name);
 
     /** register a simulator listener with a given name */
-   static void register_me(const std::string &name, Listener lst) {
-        std::map<std::string, Listener> & lmap = create_map();
-        lmap[name] = lst;
-    };
-
+    static void register_me(const std::string &name, Listener lst);
 };
 
 /** registration by name */

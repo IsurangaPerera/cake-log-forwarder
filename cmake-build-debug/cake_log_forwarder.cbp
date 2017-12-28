@@ -87,13 +87,28 @@
 		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/main.cpp">
 			<Option target="cake_log_forwarder"/>
 		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/json.h">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.cpp">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
 		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/log_listener.h">
 			<Option target="cake_log_forwarder"/>
 		</Unit>
 		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener/syslog_listener.cpp">
 			<Option target="cake_log_forwarder"/>
 		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener_constants.cpp">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
 		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/listener_constants.h">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/parser/parser.cpp">
+			<Option target="cake_log_forwarder"/>
+		</Unit>
+		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/src/parser/parser.h">
 			<Option target="cake_log_forwarder"/>
 		</Unit>
 		<Unit filename="/home/isurangaperera/CLionProjects/cake-log-forwarder/CMakeLists.txt">

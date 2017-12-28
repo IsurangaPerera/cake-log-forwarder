@@ -8,7 +8,7 @@
 class ListenerConstants {
 
 public:
-    static const int SYSLOG_LISTENER = 1;
+    static const int SYSLOG_LISTENER;
 };
 
 #endif

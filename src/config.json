@@ -1,0 +1,8 @@
+{
+  "log_types": [
+    {
+      "type": "syslog",
+      "log_level": "info"
+    }
+  ]
+}

@@ -4,7 +4,17 @@
 CMakeFiles/cake_log_forwarder.dir/main.cpp.o: ../main.cpp
 CMakeFiles/cake_log_forwarder.dir/main.cpp.o: ../src/listener/log_listener.h
 
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o: ../src/listener/log_listener.cpp
+CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o: ../src/listener/log_listener.h
+
 CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o: ../src/listener/log_listener.h
 CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o: ../src/listener/syslog_listener.cpp
 CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o: ../src/listener_constants.h
+
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o: ../src/listener_constants.cpp
+CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o: ../src/listener_constants.h
+
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o: ../src/json.h
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o: ../src/parser/parser.cpp
+CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o: ../src/parser/parser.h
 

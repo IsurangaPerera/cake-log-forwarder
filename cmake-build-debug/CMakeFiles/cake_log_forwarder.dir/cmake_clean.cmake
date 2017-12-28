@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cake_log_forwarder.dir/main.cpp.o"
   "CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.o"
+  "CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o"
+  "CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o"
+  "CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o"
   "cake_log_forwarder.pdb"
   "cake_log_forwarder"
 )

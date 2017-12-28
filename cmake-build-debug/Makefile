@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/listener/log_listener.o: src/listener/log_listener.cpp.o
+
+.PHONY : src/listener/log_listener.o
+
+# target to build an object file
+src/listener/log_listener.cpp.o:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.o
+.PHONY : src/listener/log_listener.cpp.o
+
+src/listener/log_listener.i: src/listener/log_listener.cpp.i
+
+.PHONY : src/listener/log_listener.i
+
+# target to preprocess a source file
+src/listener/log_listener.cpp.i:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.i
+.PHONY : src/listener/log_listener.cpp.i
+
+src/listener/log_listener.s: src/listener/log_listener.cpp.s
+
+.PHONY : src/listener/log_listener.s
+
+# target to generate assembly for a file
+src/listener/log_listener.cpp.s:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener/log_listener.cpp.s
+.PHONY : src/listener/log_listener.cpp.s
+
 src/listener/syslog_listener.o: src/listener/syslog_listener.cpp.o
 
 .PHONY : src/listener/syslog_listener.o
@@ -177,6 +204,60 @@ src/listener/syslog_listener.cpp.s:
 	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener/syslog_listener.cpp.s
 .PHONY : src/listener/syslog_listener.cpp.s
 
+src/listener_constants.o: src/listener_constants.cpp.o
+
+.PHONY : src/listener_constants.o
+
+# target to build an object file
+src/listener_constants.cpp.o:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.o
+.PHONY : src/listener_constants.cpp.o
+
+src/listener_constants.i: src/listener_constants.cpp.i
+
+.PHONY : src/listener_constants.i
+
+# target to preprocess a source file
+src/listener_constants.cpp.i:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.i
+.PHONY : src/listener_constants.cpp.i
+
+src/listener_constants.s: src/listener_constants.cpp.s
+
+.PHONY : src/listener_constants.s
+
+# target to generate assembly for a file
+src/listener_constants.cpp.s:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/listener_constants.cpp.s
+.PHONY : src/listener_constants.cpp.s
+
+src/parser/parser.o: src/parser/parser.cpp.o
+
+.PHONY : src/parser/parser.o
+
+# target to build an object file
+src/parser/parser.cpp.o:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.o
+.PHONY : src/parser/parser.cpp.o
+
+src/parser/parser.i: src/parser/parser.cpp.i
+
+.PHONY : src/parser/parser.i
+
+# target to preprocess a source file
+src/parser/parser.cpp.i:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.i
+.PHONY : src/parser/parser.cpp.i
+
+src/parser/parser.s: src/parser/parser.cpp.s
+
+.PHONY : src/parser/parser.s
+
+# target to generate assembly for a file
+src/parser/parser.cpp.s:
+	$(MAKE) -f CMakeFiles/cake_log_forwarder.dir/build.make CMakeFiles/cake_log_forwarder.dir/src/parser/parser.cpp.s
+.PHONY : src/parser/parser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +270,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/listener/log_listener.o"
+	@echo "... src/listener/log_listener.i"
+	@echo "... src/listener/log_listener.s"
 	@echo "... src/listener/syslog_listener.o"
 	@echo "... src/listener/syslog_listener.i"
 	@echo "... src/listener/syslog_listener.s"
+	@echo "... src/listener_constants.o"
+	@echo "... src/listener_constants.i"
+	@echo "... src/listener_constants.s"
+	@echo "... src/parser/parser.o"
+	@echo "... src/parser/parser.i"
+	@echo "... src/parser/parser.s"
 .PHONY : help
 
 
